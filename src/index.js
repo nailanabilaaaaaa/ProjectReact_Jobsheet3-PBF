@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Test from './Test';
 import HelloComponent from './component/HelloComponent';
+import Login from './Login';
 import reportWebVitals from './reportWebVitals';
 
 // function HelloComponent(){
@@ -18,7 +19,7 @@ class StateFullComponent extends React.Component {
 }
 
 ReactDOM.render(
-  <HelloComponent />,  
+  <Login />,  
   document.getElementById('root')
 );
 
