@@ -20,7 +20,7 @@ class StateFullComponent extends React.Component {
 }
 
 ReactDOM.render(
-  <Register />,  
+  <Login />,  
   document.getElementById('root')
 );
 
